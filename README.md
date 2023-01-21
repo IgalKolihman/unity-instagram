@@ -1,16 +1,24 @@
 # unity_instagram
 
-A new Flutter project.
+Unity Instagram website.
 
-## Getting Started
+![profile example](assets/example.png)
 
-This project is a starting point for a Flutter application.
+## How to run
 
-A few resources to get you started if this is your first Flutter project:
+1. Clone this repository
+2. `cd` into `build/web`
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+```bash
+cd build/web
+```
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+3. Run python http server
+
+```bash
+python -m SimpleHTTPServer 80 # for python2
+```
+
+```bash
+python -m http.server 80 # for python3
+```
